@@ -31,18 +31,15 @@
     _scrollView.pagingEnabled = YES;
     _scrollView.showsHorizontalScrollIndicator = NO;
     _scrollView.showsVerticalScrollIndicator = NO;
-    _scrollView.contentOffset = CGPointMake(imageWidth, 0);
     _scrollView.bounces = NO;
     [self addSubview:_scrollView];
     scrollPage = 0;
     
     _pageControl = [[UIPageControl alloc]initWithFrame:CGRectMake(0, imageHeight - 5, imageWidth, 0)];
-    _pageControl.numberOfPages = 5;
     _pageControl.currentPage = 0;
     _pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
     _pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
     [self addSubview:_pageControl];
-    [self addTimer];
     
 }
 
@@ -59,9 +56,18 @@
 
 - (void)setImageArry:(NSArray *)imageArry
 {
-    _scrollView.contentSize = CGSizeMake(imageWidth * 3, 0);
     int page = 0;
-    for (int i = 0; i < 3; i++) {
+    int pageNumber = 0;
+    if ([imageArry count] == 1) {
+        pageNumber = 1;
+    }else if ([imageArry count] > 1){ //图片大于一张时才可滑动
+        pageNumber = 3;
+        [self addTimer];
+        _scrollView.contentOffset = CGPointMake(imageWidth, 0);
+        _scrollView.contentSize = CGSizeMake(imageWidth * 3, 0);
+    }
+    
+    for (int i = 0; i < pageNumber; i++) {
         UIImageView *image = [[UIImageView alloc]initWithFrame:CGRectMake(imageWidth * page, 0, imageWidth, imageHeight)];
         image.tag = 11 + i;
         if (i == 0) {
@@ -77,6 +83,8 @@
         
         page ++;
     }
+    _pageControl.numberOfPages = [imageArry count];
+//    _pageControl.hidesForSinglePage = YES;
     _imageArry = imageArry;
     
 }
@@ -85,7 +93,7 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView;{
     float RightPage = _scrollView.contentOffset.x;
-    if (RightPage == imageWidth*2) {
+    if (RightPage == imageWidth * 2) {
         [self moveRight];
     }
     float LeftPage = _scrollView.contentOffset.x - imageWidth;
