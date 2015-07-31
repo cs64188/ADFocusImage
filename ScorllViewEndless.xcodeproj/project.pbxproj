@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7C91B51B6B215B00B16116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C91B41B6B215B00B16116 /* main.m */; };
+		EE7C91B81B6B215B00B16116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C91B71B6B215B00B16116 /* AppDelegate.m */; };
+		EE7C91BB1B6B215B00B16116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C91BA1B6B215B00B16116 /* ViewController.m */; };
+		EE7C91BE1B6B215B00B16116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7C91BC1B6B215B00B16116 /* Main.storyboard */; };
+		EE7C91C01B6B215B00B16116 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7C91BF1B6B215B00B16116 /* Images.xcassets */; };
+		EE7C91C31B6B215B00B16116 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7C91C11B6B215B00B16116 /* LaunchScreen.xib */; };
+		EE7C91CF1B6B215B00B16116 /* ScorllViewEndlessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C91CE1B6B215B00B16116 /* ScorllViewEndlessTests.m */; };
+		EE7C91DA1B6B218A00B16116 /* ADFocusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C91D91B6B218A00B16116 /* ADFocusImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7C91C91B6B215B00B16116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7C91A71B6B215B00B16116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7C91AE1B6B215B00B16116;
+			remoteInfo = ScorllViewEndless;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE7C91AF1B6B215B00B16116 /* ScorllViewEndless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScorllViewEndless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7C91B31B6B215B00B16116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7C91B41B6B215B00B16116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7C91B61B6B215B00B16116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE7C91B71B6B215B00B16116 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE7C91B91B6B215B00B16116 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE7C91BA1B6B215B00B16116 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE7C91BD1B6B215B00B16116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7C91BF1B6B215B00B16116 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE7C91C21B6B215B00B16116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE7C91C81B6B215B00B16116 /* ScorllViewEndlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScorllViewEndlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7C91CD1B6B215B00B16116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7C91CE1B6B215B00B16116 /* ScorllViewEndlessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScorllViewEndlessTests.m; sourceTree = "<group>"; };
+		EE7C91D81B6B218A00B16116 /* ADFocusImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADFocusImageView.h; path = ScorllViewEndless/ADFocusImageView.h; sourceTree = "<group>"; };
+		EE7C91D91B6B218A00B16116 /* ADFocusImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADFocusImageView.m; path = ScorllViewEndless/ADFocusImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7C91AC1B6B215B00B16116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7C91C51B6B215B00B16116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7C91A61B6B215B00B16116 = {
+			isa = PBXGroup;
+			children = (
+				EE7C91D81B6B218A00B16116 /* ADFocusImageView.h */,
+				EE7C91D91B6B218A00B16116 /* ADFocusImageView.m */,
+				EE7C91B11B6B215B00B16116 /* ScorllViewEndless */,
+				EE7C91CB1B6B215B00B16116 /* ScorllViewEndlessTests */,
+				EE7C91B01B6B215B00B16116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7C91B01B6B215B00B16116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C91AF1B6B215B00B16116 /* ScorllViewEndless.app */,
+				EE7C91C81B6B215B00B16116 /* ScorllViewEndlessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7C91B11B6B215B00B16116 /* ScorllViewEndless */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C91B61B6B215B00B16116 /* AppDelegate.h */,
+				EE7C91B71B6B215B00B16116 /* AppDelegate.m */,
+				EE7C91B91B6B215B00B16116 /* ViewController.h */,
+				EE7C91BA1B6B215B00B16116 /* ViewController.m */,
+				EE7C91BC1B6B215B00B16116 /* Main.storyboard */,
+				EE7C91BF1B6B215B00B16116 /* Images.xcassets */,
+				EE7C91C11B6B215B00B16116 /* LaunchScreen.xib */,
+				EE7C91B21B6B215B00B16116 /* Supporting Files */,
+			);
+			path = ScorllViewEndless;
+			sourceTree = "<group>";
+		};
+		EE7C91B21B6B215B00B16116 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C91B31B6B215B00B16116 /* Info.plist */,
+				EE7C91B41B6B215B00B16116 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7C91CB1B6B215B00B16116 /* ScorllViewEndlessTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C91CE1B6B215B00B16116 /* ScorllViewEndlessTests.m */,
+				EE7C91CC1B6B215B00B16116 /* Supporting Files */,
+			);
+			path = ScorllViewEndlessTests;
+			sourceTree = "<group>";
+		};
+		EE7C91CC1B6B215B00B16116 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C91CD1B6B215B00B16116 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7C91AE1B6B215B00B16116 /* ScorllViewEndless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7C91D21B6B215B00B16116 /* Build configuration list for PBXNativeTarget "ScorllViewEndless" */;
+			buildPhases = (
+				EE7C91AB1B6B215B00B16116 /* Sources */,
+				EE7C91AC1B6B215B00B16116 /* Frameworks */,
+				EE7C91AD1B6B215B00B16116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScorllViewEndless;
+			productName = ScorllViewEndless;
+			productReference = EE7C91AF1B6B215B00B16116 /* ScorllViewEndless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7C91C71B6B215B00B16116 /* ScorllViewEndlessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7C91D51B6B215B00B16116 /* Build configuration list for PBXNativeTarget "ScorllViewEndlessTests" */;
+			buildPhases = (
+				EE7C91C41B6B215B00B16116 /* Sources */,
+				EE7C91C51B6B215B00B16116 /* Frameworks */,
+				EE7C91C61B6B215B00B16116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7C91CA1B6B215B00B16116 /* PBXTargetDependency */,
+			);
+			name = ScorllViewEndlessTests;
+			productName = ScorllViewEndlessTests;
+			productReference = EE7C91C81B6B215B00B16116 /* ScorllViewEndlessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7C91A71B6B215B00B16116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "思宇 陆";
+				TargetAttributes = {
+					EE7C91AE1B6B215B00B16116 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EE7C91C71B6B215B00B16116 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EE7C91AE1B6B215B00B16116;
+					};
+				};
+			};
+			buildConfigurationList = EE7C91AA1B6B215B00B16116 /* Build configuration list for PBXProject "ScorllViewEndless" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7C91A61B6B215B00B16116;
+			productRefGroup = EE7C91B01B6B215B00B16116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7C91AE1B6B215B00B16116 /* ScorllViewEndless */,
+				EE7C91C71B6B215B00B16116 /* ScorllViewEndlessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7C91AD1B6B215B00B16116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7C91BE1B6B215B00B16116 /* Main.storyboard in Resources */,
+				EE7C91C31B6B215B00B16116 /* LaunchScreen.xib in Resources */,
+				EE7C91C01B6B215B00B16116 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7C91C61B6B215B00B16116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7C91AB1B6B215B00B16116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7C91DA1B6B218A00B16116 /* ADFocusImageView.m in Sources */,
+				EE7C91BB1B6B215B00B16116 /* ViewController.m in Sources */,
+				EE7C91B81B6B215B00B16116 /* AppDelegate.m in Sources */,
+				EE7C91B51B6B215B00B16116 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7C91C41B6B215B00B16116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7C91CF1B6B215B00B16116 /* ScorllViewEndlessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7C91CA1B6B215B00B16116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7C91AE1B6B215B00B16116 /* ScorllViewEndless */;
+			targetProxy = EE7C91C91B6B215B00B16116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7C91BC1B6B215B00B16116 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7C91BD1B6B215B00B16116 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7C91C11B6B215B00B16116 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7C91C21B6B215B00B16116 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7C91D01B6B215B00B16116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7C91D11B6B215B00B16116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7C91D31B6B215B00B16116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScorllViewEndless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE7C91D41B6B215B00B16116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScorllViewEndless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE7C91D61B6B215B00B16116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScorllViewEndlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScorllViewEndless.app/ScorllViewEndless";
+			};
+			name = Debug;
+		};
+		EE7C91D71B6B215B00B16116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScorllViewEndlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScorllViewEndless.app/ScorllViewEndless";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7C91AA1B6B215B00B16116 /* Build configuration list for PBXProject "ScorllViewEndless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7C91D01B6B215B00B16116 /* Debug */,
+				EE7C91D11B6B215B00B16116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7C91D21B6B215B00B16116 /* Build configuration list for PBXNativeTarget "ScorllViewEndless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7C91D31B6B215B00B16116 /* Debug */,
+				EE7C91D41B6B215B00B16116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE7C91D51B6B215B00B16116 /* Build configuration list for PBXNativeTarget "ScorllViewEndlessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7C91D61B6B215B00B16116 /* Debug */,
+				EE7C91D71B6B215B00B16116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7C91A71B6B215B00B16116 /* Project object */;
+}
