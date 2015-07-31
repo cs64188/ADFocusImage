@@ -1,7 +1,7 @@
 # ADFocusImage
-## ADFocusImage图片轮播器
+### ADFocusImage图片轮播器
 
-### 支持无限图片轮播,自带倒计时图片轮播,简洁易用
+#### 支持无限图片轮播,自带倒计时图片轮播,简洁易用
 
 ```objective-c
 // 图片数组，只要把图片数组给ADFocusImage就可以了。
@@ -16,4 +16,4 @@ imageFocus.delegate = self;
 [self.view addSubview:imageFocus];
 ```
 
-### 欢迎一起探讨
+#### 欢迎一起探讨
